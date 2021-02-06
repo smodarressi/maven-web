@@ -12,8 +12,8 @@ pipeline {
             	}     	 
         	}	 
     	}
-		stage('deploy') {
-    // some block
-	}
+		stage("deploy") { 
+			//there are steps here         	 
+		}
 }
 

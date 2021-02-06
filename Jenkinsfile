@@ -11,9 +11,9 @@ pipeline {
                 	sh "mvn test"          	 
             	}     	 
         	}	 
-    	}
 		stage("deploy") { 
 			//there are steps here         	 
 		}
+	}
 }
 

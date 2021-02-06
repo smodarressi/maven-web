@@ -12,5 +12,8 @@ pipeline {
             	}     	 
         	}	 
     	}
+		stage('deploy') {
+    // some block
+	}
 }
 

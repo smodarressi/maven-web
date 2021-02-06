@@ -12,7 +12,9 @@ pipeline {
             	}     	 
         	}	 
 		stage("deploy") { 
-			//there are steps here         	 
+			steps {
+				//there are steps here  
+			}       	 
 		}
 	}
 }

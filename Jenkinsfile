@@ -13,6 +13,7 @@ pipeline {
         	}	 
 		stage("deploy") { 
 			steps {
+				sh "mvn deploy"
 				//there are steps here  
 			}       	 
 		}
